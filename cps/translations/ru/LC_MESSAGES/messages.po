@@ -68,7 +68,7 @@ msgstr "Настройка интерфейса"
 #: cps/web.py:753
 #, python-format
 msgid "Custom Column No.%(column)d does not exist in calibre database"
-msgstr "Потльзовательский столбец No.%(column) не существует в базе данных Calibre"
+msgstr "Пользовательский столбец No.%(column) не существует в базе данных Calibre"
 
 #: cps/admin.py:333 cps/templates/admin.html:51
 #, fuzzy
@@ -86,7 +86,7 @@ msgstr "Пользователь не найден"
 
 #: cps/admin.py:415
 msgid "{} users deleted successfully"
-msgstr "{} пользователей умпешно удалены"
+msgstr "{} пользователей успешно удалены"
 
 #: cps/admin.py:438 cps/templates/config_view_edit.html:133
 #: cps/templates/user_edit.html:45 cps/templates/user_table.html:81
@@ -231,7 +231,7 @@ msgstr ""
 
 #: cps/admin.py:1005
 msgid "Invalid Action"
-msgstr ""
+msgstr "Недопустимое действие"
 
 #: cps/admin.py:1132
 msgid "client_secrets.json Is Not Configured For Web Application"
@@ -239,7 +239,7 @@ msgstr "client_secrets.json не настроен для веб-приложен
 
 #: cps/admin.py:1177
 msgid "Logfile Location is not Valid, Please Enter Correct Path"
-msgstr "Неправильное расположение файла журнала, пожалуйста, введите правильный путь."
+msgstr "Указан неверный путь к расположению файла журнала. Пожалуйста, укажите корректный путь."
 
 #: cps/admin.py:1183
 msgid "Access Logfile Location is not Valid, Please Enter Correct Path"
@@ -283,7 +283,7 @@ msgstr ""
 
 #: cps/admin.py:1248
 msgid "LDAP Member User Filter Has Unmatched Parenthesis"
-msgstr ""
+msgstr "Фильтр пользователей-членов LDAP содержит несогласованные скобки"
 
 #: cps/admin.py:1255
 msgid "LDAP CACertificate, Certificate or Key Location is not Valid, Please Enter Correct Path"
@@ -299,7 +299,7 @@ msgstr "Изменить настройки SMTP"
 
 #: cps/admin.py:1314
 msgid "Success! Gmail Account Verified."
-msgstr ""
+msgstr "Успех! Учетная запись Gmail подтверждена."
 
 #: cps/admin.py:1334 cps/admin.py:1337 cps/admin.py:1722 cps/admin.py:1878
 #: cps/admin.py:1976 cps/admin.py:2097 cps/editbooks.py:168
@@ -308,7 +308,7 @@ msgstr ""
 #: cps/shelf.py:476 cps/tasks/convert.py:160 cps/web.py:1535
 #, python-format
 msgid "Oops! Database Error: %(error)s."
-msgstr ""
+msgstr "Упс! Ошибка базы данных: %(error)s."
 
 #: cps/admin.py:1344
 #, python-format
@@ -334,42 +334,42 @@ msgstr ""
 
 #: cps/admin.py:1386
 msgid "Invalid start time for task specified"
-msgstr ""
+msgstr "Некорректное время запуска задачи"
 
 #: cps/admin.py:1391
 msgid "Invalid duration for task specified"
-msgstr ""
+msgstr "Некорректная продолжительность выполнения задачи"
 
 #: cps/admin.py:1401
 msgid "Scheduled tasks settings updated"
-msgstr ""
+msgstr "Настройки запланированных задач обновлены"
 
 #: cps/admin.py:1411 cps/admin.py:1460 cps/admin.py:2093 cps/web.py:1325
 msgid "Oops! An unknown error occurred. Please try again later."
-msgstr "Неизвестная ошибка. Попробуйте позже."
+msgstr "Упс! Произошла неизвестная ошибка. Пожалуйста, повторите попытку позже."
 
 #: cps/admin.py:1415
 msgid "Settings DB is not Writeable"
-msgstr ""
+msgstr "База данных настроек недоступна для записи"
 
 #: cps/admin.py:1445 cps/admin.py:2085
 #, python-format
 msgid "Edit User %(nick)s"
-msgstr "Изменить пользователя %(nick)s"
+msgstr "Редактировать данные пользователя %(nick)s"
 
 #: cps/admin.py:1457
 #, fuzzy, python-format
 msgid "Success! Password for user %(user)s reset"
-msgstr "Пароль для пользователя %(user)s сброшен"
+msgstr "Успех! Пароль для пользователя %(user)s сброшен"
 
 #: cps/admin.py:1463
 #, fuzzy
 msgid "Oops! Please configure the SMTP mail settings."
-msgstr "Пожалуйста, сперва настройте параметры SMTP....."
+msgstr "Упс! Пожалуйста, настройте параметры SMTP-почты."
 
 #: cps/admin.py:1474
 msgid "Logfile viewer"
-msgstr "Просмотр лога"
+msgstr "Просмотр журнала"
 
 #: cps/admin.py:1540
 msgid "Requesting update package"
@@ -389,7 +389,7 @@ msgstr "Замена файлов"
 
 #: cps/admin.py:1544
 msgid "Database connections are closed"
-msgstr "Соединения с базой данных закрыты"
+msgstr "Подключения к базе данных закрыты"
 
 #: cps/admin.py:1545
 msgid "Stopping server"
@@ -397,7 +397,7 @@ msgstr "Остановка сервера"
 
 #: cps/admin.py:1546
 msgid "Update finished, please press okay and reload page"
-msgstr "Обновления установлены, нажмите ок и перезагрузите страницу"
+msgstr "Обновление завершено. Нажмите «OK» и обновите страницу."
 
 #: cps/admin.py:1547 cps/admin.py:1548 cps/admin.py:1549 cps/admin.py:1550
 #: cps/admin.py:1551 cps/admin.py:1552
@@ -414,7 +414,7 @@ msgstr "Ошибка соединения"
 
 #: cps/admin.py:1549 cps/updater.py:395 cps/updater.py:632
 msgid "Timeout while establishing connection"
-msgstr "Тайм-аут при установлении соединения"
+msgstr "Превышено время ожидания подключения"
 
 #: cps/admin.py:1550 cps/updater.py:397 cps/updater.py:634
 msgid "General error"
@@ -427,12 +427,12 @@ msgstr "Не удалось сохранить файл обновления в�
 
 #: cps/admin.py:1552
 msgid "Files could not be replaced during update"
-msgstr ""
+msgstr "Не удалось заменить файлы во время обновления"
 
 #: cps/admin.py:1576
 #, fuzzy
 msgid "Failed to extract at least One LDAP User"
-msgstr "Не удалось создать хотя бы одного пользователя LDAP"
+msgstr "Не удалось извлечь данные хотя бы одного пользователя LDAP"
 
 #: cps/admin.py:1621
 msgid "Failed to Create at Least One LDAP User"
@@ -449,19 +449,19 @@ msgstr "Ошибка: ни одного пользователя не найде
 
 #: cps/admin.py:1674
 msgid "At Least One LDAP User Not Found in Database"
-msgstr "По крайней мере, один пользователь LDAP не найден в базе данных"
+msgstr "Как минимум один пользователь LDAP не найден в базе данных"
 
 #: cps/admin.py:1676
 msgid "{} User Successfully Imported"
-msgstr ""
+msgstr "{} пользователь успешно импортирован"
 
 #: cps/admin.py:1734
 msgid "Books path not valid"
-msgstr ""
+msgstr "Некорректный путь к файлам книг"
 
 #: cps/admin.py:1740
 msgid "DB Location is not Valid, Please Enter Correct Path"
-msgstr "Расположение Базы Данных неверно, пожалуйста, введите правильный путь."
+msgstr "Указано неверное расположение к базе данных. Пожалуйста, укажите корректный путь."
 
 #: cps/admin.py:1768
 msgid "DB is not Writeable"
